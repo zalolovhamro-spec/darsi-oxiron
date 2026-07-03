@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" href="./images/image copy 3.png" />
+  </head>
+  <body>
+    <header class="bg-[#111] text-white border-b-1 border-gray-800">
+      <div class="flex justify-between items-center p-4">
+        <h1 class="text-3xl font-bold text-sky-400">BlueTech</h1>
+        <nav class="hidden lg:flex gap-8">
+          <a href="index.html">Home</a>
+          <a class="text-sky-400 underline" href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="price.html">Price</a>
+          <a href="careers.html">Careers</a>
+          <a href="blog.html">Blog</a>
+          <a href="about.html">About</a>
+          <a href="team.html">Team</a>
+          <a href="login.html">Login</a>
+          <a href="Contakt.html">Contact</a>
+        </nav>
+
+        <button id="menuBtn" class="lg:hidden text-4xl">☰</button>
+      </div>
+    </header>
+
+    <main class="bg-[#111] pt-20 pb-20">
+      <section>
+        <div
+          id="mobileMenu"
+          class="fixed top-0 left-[-100%] w-72 h-screen bg-[#111] duration-500 z-50"
+        >
+          <div
+            class="flex justify-between items-center p-5 border-b border-gray-700"
+          >
+            <h1 class="text-3xl font-bold text-sky-400">BlueTech</h1>
+
+            <button id="closeBtn" class="text-4xl text-white">✕</button>
+          </div>
+
+          <nav class="flex flex-col text-white text-xl">
+            <a href="./index.html" class="p-4 hover:bg-gray-800">🏠 Home</a>
+
+            <a href="./services.html" class="p-4 hover:bg-gray-800"
+              >🛠 Services</a
+            >
+
+            <a href="./gallery.html" class="p-4 hover:bg-gray-800"
+              >🖼 Gallery</a
+            >
+
+            <a href="./price.html" class="p-4 hover:bg-gray-800"
+              >💲 Price List</a
+            >
+
+            <a href="./careers.html" class="p-4 hover:bg-gray-800"
+              >💼 Careers</a
+            >
+
+            <a href="./blog.html" class="p-4 hover:bg-gray-800">📰 Blog</a>
+
+            <a href="./about.html" class="p-4 hover:bg-gray-800">ℹ About</a>
+
+            <a href="./team.html" class="p-4 hover:bg-gray-800">👨‍💻 Team</a>
+
+            <a href="contact.html" class="p-4 hover:bg-gray-800">📞 Contact</a>
+
+            <a href="login.html" class="p-4 hover:bg-gray-800">🔑 Login</a>
+          </nav>
+        </div>
+      </section>
+      <section>
+        <div>
+          <p class="lg:ml-20 text-6xl font-bold text-white">Таҷҳизоти Насли Нав</p>
+          <p class="lg:ml-21 text-gray-400">
+            Маҷмӯи компютерҳои баландсифат ва лавозимоти муосир барои кор ва бозиҳои <br>
+            шумо. Суръат ва сифати бемислу монандро бо BlueTech ҳис кунед.
+          </p>
+        </div>
+        <br /><br />
+        <div class="flex lg:gap-69 gap-10 lg:justify-center lg:overflow-x-clip overflow-x-scroll">
+          <div
+            class="w-80 bg-slate-800 rounded-2xl shadow-2xl border border-slate-700 lg:hover:scale-105 lg:duration-300 hover:scale-95 duration-300"
+          >
+            <img
+              src="images/image copy 4.png"
+              alt="Product"
+              class="w-full rounded-t-2xl h-52 object-cover"
+            />
+            <div class="p-5">
+              <div class="flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-sky-400">Zenith Elite</h2>
+                <span class="text-white text-xl font-bold"> $2,499 </span>
+              </div>
+              <p class="text-slate-400 mt-3 text-sm leading-6">
+                Монитори касбӣ барои бозигарон ва тарроҳон бо сифати баланд ва
+                намоиши равшани тасвир.
+              </p>
+              <button
+                class="mt-6 w-70 h-12 bg-cyan-400 hover:bg-cyan-500 text-slate-900 font-bold rounded-xl transition duration-300"
+              >
+                Харидан
+              </button>
+            </div>
+          </div>
+          <div
+            class="w-80 bg-slate-800 rounded-2xl shadow-2xl border border-slate-700 lg:hover:scale-105 lg:duration-300 hover:scale-95 duration-300"
+          >
+            <img
+              src="images/image copy 5.png"
+              alt="Product"
+              class="w-full rounded-t-2xl h-52 object-cover"
+            />
+            <div class="p-5">
+              <div class="flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-sky-400">ProStream Office</h2>
+                <span class="text-white text-xl font-bold"> $899 </span>
+              </div>
+              <p class="text-slate-400 mt-3 text-sm leading-6">
+                Монитори касбӣ барои бозигарон ва тарроҳон бо сифати баланд ва
+                намоиши равшани тасвир.
+              </p>
+              <button
+                class="mt-6 w-70 h-12 bg-cyan-400 hover:bg-cyan-500 text-slate-900 font-bold rounded-xl transition duration-300"
+              >
+                Харидан
+              </button>
+            </div>
+          </div>
+          <div
+            class="w-80 bg-slate-800 rounded-2xl shadow-2xl border border-slate-700 lg:hover:scale-105 lg:duration-300 hover:scale-95 duration-300"
+          >
+            <img
+              src="images/image copy 6.png"
+              alt="Product"
+              class="w-full rounded-t-2xl h-52 object-cover"
+            />
+            <div class="p-5">
+              <div class="flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-sky-400">Vapor Ultra</h2>
+                <span class="text-white text-xl font-bold"> $1,299 </span>
+              </div>
+              <p class="text-slate-400 mt-3 text-sm leading-6">
+                Монитори касбӣ барои бозигарон ва тарроҳон бо сифати баланд ва
+                намоиши равшани тасвир.
+              </p>
+              <button
+                class="mt-6 w-70 h-12 bg-cyan-400 hover:bg-cyan-500 text-slate-900 font-bold rounded-xl transition duration-300"
+              >
+                Харидан
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <br><br><br>
+        <div class="flex lg:gap-69 gap-10 lg:justify-center lg:overflow-x-clip overflow-x-scroll">
+          <div
+            class="w-80 bg-slate-800 rounded-2xl shadow-2xl border border-slate-700 lg:hover:scale-105 lg:duration-300 hover:scale-95 duration-300"
+          >
+            <img
+              src="images/image copy 7.png"
+              alt="Product"
+              class="w-full rounded-t-2xl h-52 object-cover"
+            />
+            <div class="p-5">
+              <div class="flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-sky-400">Quantum Curve</h2>
+                <span class="text-white text-xl font-bold"> $649 </span>
+              </div>
+              <p class="text-slate-400 mt-3 text-sm leading-6">
+                Монитори касбӣ барои бозигарон ва тарроҳон бо сифати баланд ва
+                намоиши равшани тасвир.
+              </p>
+              <button
+                class="mt-6 w-70 h-12 bg-cyan-400 hover:bg-cyan-500 text-slate-900 font-bold rounded-xl transition duration-300"
+              >
+                Харидан
+              </button>
+            </div>
+          </div>
+          <div
+            class="w-80 bg-slate-800 rounded-2xl shadow-2xl border border-slate-700 lg:hover:scale-105 lg:duration-300 hover:scale-95 duration-300"
+          >
+            <img
+              src="images/image copy 8.png"
+              alt="Product"
+              class="w-full rounded-t-2xl h-52 object-cover"
+            />
+            <div class="p-5">
+              <div class="flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-sky-400">Nebula Mech</h2>
+                <span class="text-white text-xl font-bold"> $159 </span>
+              </div>
+              <p class="text-slate-400 mt-3 text-sm leading-6">
+                Монитори касбӣ барои бозигарон ва тарроҳон бо сифати баланд ва
+                намоиши равшани тасвир.
+              </p>
+              <button
+                class="mt-6 w-70 h-12 bg-cyan-400 hover:bg-cyan-500 text-slate-900 font-bold rounded-xl transition duration-300"
+              >
+                Харидан
+              </button>
+            </div>
+          </div>
+          <div
+            class="w-80 bg-slate-800 rounded-2xl shadow-2xl border border-slate-700 lg:hover:scale-105 lg:duration-300 hover:scale-95 duration-300"
+          >
+            <img
+              src="images/image copy 9.png"
+              alt="Product"
+              class="w-full rounded-t-2xl h-52 object-cover"
+            />
+            <div class="p-5">
+              <div class="flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-sky-400">SwiftClick</h2>
+                <span class="text-white text-xl font-bold"> $79 </span>
+              </div>
+              <p class="text-slate-400 mt-3 text-sm leading-6">
+                Монитори касбӣ барои бозигарон ва тарроҳон бо сифати баланд ва
+                намоиши равшани тасвир.
+              </p>
+              <button
+                class="mt-6 w-70 h-12 bg-cyan-400 hover:bg-cyan-500 text-slate-900 font-bold rounded-xl transition duration-300"
+              >
+                Харидан
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#111] pt-10 pb-10">
+      <div class="bg-neutral-800 pt-10 pb-10">  
+        <p class="text-gray-400 text-center">© 2024 BlueTech Precision Computing. Ҳамаи ҳуқуқҳо ҳифз шудаанд.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
